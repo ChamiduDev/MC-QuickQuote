@@ -1,0 +1,12 @@
+'use client';
+
+import { useContext } from 'react';
+import { QuoteContext } from '@/contexts/quote-context';
+
+export const useQuote = () => {
+  const context = useContext(QuoteContext);
+  if (context === undefined) {
+    throw new Error('useQuote must be used within a QuoteProvider');
+  }
+  return context;
+};
