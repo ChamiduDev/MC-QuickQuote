@@ -64,7 +64,7 @@ A **modern, responsive web application** built with **Next.js** that allows you 
 ## 🛠️ Installation
 
 ```bash
-git clone https://github.com/yourusername/quotation-generator.git
+git clone https://github.com/ChamiduDev/MC-QuickQuote.git
 cd quotation-generator
 npm install
 npm run dev
